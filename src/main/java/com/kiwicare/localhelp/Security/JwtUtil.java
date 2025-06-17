@@ -3,7 +3,6 @@ package com.kiwicare.localhelp.Security;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -18,27 +17,23 @@ import java.util.stream.Collectors;
 @Component
 public class JwtUtil {
 
-    @Value("${jwt.secret}")
-    private String secret;
-
-    @Value("${jwt.access-token.expiration}")
-    private long accessTokenExpiry;
-
-    @Value("${jwt.refresh-token.expiration}")
-    private long refreshTokenExpiry;
-
-    @Autowired
-    private UserRepository userRepository;
+    private final String secret = "12345678901234567890123456789012"; // 256-bit
+    private final long accessTokenExpiry = 1000 * 60 * 60 * 24; // 1 day
+    private final long refreshTokenExpiry = 7 * 24 * 60 * 60 * 1000; // 7 days
 
     private Key getSignInKey() {
         return Keys.hmacShaKeyFor(secret.getBytes());
     }
+
+    @Autowired
+    private UserRepository userRepository; 
 
     public String generateAccessToken(UserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
         claims.put("authorities", userDetails.getAuthorities().stream()
                 .map(a -> a.getAuthority()).collect(Collectors.toList()));
 
+        //  Add user ID into JWT
         userRepository.findByEmail(userDetails.getUsername()).ifPresent(user -> {
             claims.put("id", user.getId());
         });
