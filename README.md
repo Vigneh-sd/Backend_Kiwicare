@@ -111,7 +111,7 @@ Backend_Kiwicare/
 │   │       ├── static/
 │   │       ├── templates/
 │   │       ├── application.properties
-│   │       └── application-prod.properties
+│   │       
 ├── .gitignore
 ├── HELP.md
 ├── mvnw
