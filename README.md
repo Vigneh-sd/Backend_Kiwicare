@@ -61,75 +61,102 @@ https://www.linkedin.com/in/vigneshsubramaniam07/
 
 # 📸 KiwiCare Project Screenshots
 
-### AdminDashboard
-![AdminDashboard.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard.png)
+### 🚀 Spring Boot Backend Setup
 
-### AdminDashboard 1
-![AdminDashboard_1.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_1.png)
-
-### AdminDashboard 2
-![AdminDashboard_2.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_2.png)
-
-### AdminDashboard 3
-![AdminDashboard_3.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_3.png)
-
-### Homepage
-![Homepage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/Homepage.png)
-
-### LoginPage
-![LoginPage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/LoginPage.png)
-
-### React
-![React.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/React.png)
-
-### RegistrationPage
-![RegistrationPage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/RegistrationPage.png)
-
-### Springboot
 ![Springboot.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/Springboot.png)
 
-### UserBookhelp
-![UserBookhelp.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserBookhelp.png)
+### 🛠️ React Frontend Setup
 
-### UserDashboard
+![React.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/React.png)
+
+### 👤 Registration Page
+
+![RegistrationPage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/RegistrationPage.png)
+
+### 🔐 Login Page
+
+![LoginPage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/LoginPage.png)
+
+### 🏠 Homepage
+
+![Homepage.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/Homepage.png)
+
+---
+
+## 👨‍💻 User Role Screens
+
+### 📍 User Dashboard
+
 ![UserDashboard.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserDashboard.png)
 
-### UserMessages
+### 🚑 Request Help
+
 ![UserMessages.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserMessages.png)
 
-### UserMyBookings
+### 📙 Book Help
+
+![UserBookhelp.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserBookhelp.png)
+
+### 🗓️ My Bookings
+
 ![UserMyBookings.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserMyBookings.png)
 
-### UserPayment
+### 💳 Make Payment
+
 ![UserPayment.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserPayment.png)
 
-### UserPaymentHistory
+### 📈 Payment History
+
 ![UserPaymentHistory.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserPaymentHistory.png)
 
-### UserRecievedMessages
+### 📨 Sent Messages
+
 ![UserRecievedMessages.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/UserRecievedMessages.png)
 
-### VolunteerAvailability
-![VolunteerAvailability.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerAvailability.png)
+---
 
-### VolunteerDashboard
+## 🫏 Volunteer Role Screens
+
+### 📅 Volunteer Dashboard
+
 ![VolunteerDashboard.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerDashboard.png)
 
-### VolunteerMessages
+### ⏰ Set Availability
+
+![VolunteerAvailability.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerAvailability.png)
+
+### 📩 Received Messages
+
 ![VolunteerMessages.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerMessages.png)
 
-### VolunteerMyBookings
+### 📆 Assigned Bookings
+
 ![VolunteerMyBookings.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerMyBookings.png)
 
-### VolunteerSentMessages
+### 📤 Sent Replies
+
 ![VolunteerSentMessages.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/VolunteerSentMessages.png)
 
+---
 
-**KiwiCare** is a full-stack volunteer help platform that enables users to request assistance, volunteers to offer availability, and admins to manage the entire system. The platform is built with:
+## 📊 Admin Role Screens
 
-- **Frontend:** React.js + Tailwind CSS
-- **Backend:** Spring Boot + Spring Security + JWT
-- **Database:** MySQL-compatible (PlanetScale / Neon / Local)
+### 🔧 Admin Dashboard
+
+![AdminDashboard.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard.png)
+
+### 🔧 View All Users
+
+![AdminDashboard\_1.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_1.png)
+
+### 🔧 View All Volunteers
+
+![AdminDashboard\_2.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_2.png)
+
+### 🔧 View All Bookings & Search User
+
+![AdminDashboard\_3.png](https://raw.githubusercontent.com/Vigneh-sd/Backend_Kiwicare/master/Project_Screenshots/AdminDashboard_3.png)
+
 
 The application supports **role-based dashboards** with different capabilities for **Users**, **Volunteers**, and **Admins**.
 
