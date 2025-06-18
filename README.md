@@ -175,3 +175,5 @@ The application supports **role-based dashboards** with different capabilities f
 
 KiwiCare is a complete role-based web platform that offers real-time help request, booking, chat, and payment features for communities. It is designed to be modular, scalable, and easily extendable for production-ready deployment.
 
+
+
