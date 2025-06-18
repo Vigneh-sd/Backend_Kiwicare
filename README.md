@@ -41,11 +41,10 @@ payments, and admin controls. It follows clean architecture principles with sepa
 https://github.com/Vigneh-sd/Kiwicare_frontend.git
 
 ---
-
 ## 🎥 Live Demo
 
-📺 **Watch Full Project Demo:**  
-https://your-demo-video-link
+📺 [Watch Full Project Demo on Google Drive](https://drive.google.com/file/d/1w8ALWM0EP5M7X1GCkgn6r2YikFMj_K2S/view?usp=drivesdk)
+
 
 ---
 
